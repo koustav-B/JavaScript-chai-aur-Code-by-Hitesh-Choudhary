@@ -11,10 +11,10 @@ console.log(undefined);
 // ===check data types
 console.log("2"===2);*/
 
-// 🔹 Primitive Data Types
+// 🔹 Primitive Data Types--> call by value
 let stringType = "Hello, JavaScript!"; // String
 let numberType = 42; // Number
-let bigIntType = 9007199254740991n; // BigInt
+let bigIntType = 9007199254740991; // BigInt
 let booleanType = true; // Boolean
 let undefinedType; // Undefined (default value is undefined)
 let nullType = null; // Null (special object type)
@@ -46,3 +46,6 @@ let nanType = "Hello" / 2; // NaN occurs when an invalid number operation happen
 console.log("\n🔹 Special Data Type:");
 console.log(typeof nanType, nanType);
 
+let name = "koustav";
+let name2 = name;
+console.log(name2)
