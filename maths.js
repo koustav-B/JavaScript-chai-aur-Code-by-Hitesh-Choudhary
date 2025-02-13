@@ -8,6 +8,7 @@ console.log(num2.toPrecision(2))
 
 const num = 100000000
 console.log(num.toLocaleString('en-IN'))*/
+
 //***********MATHS//////////******* */
 console.log(Math)
 console.log(Math.abs(-4))
