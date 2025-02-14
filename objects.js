@@ -14,6 +14,12 @@ console.log(juser.location)
 
 //objects accessed by dot operator
 juser.email = "Koustavbiswas04@gmail.com"
-Object.freeze(juser)
+    //Object.freeze(juser)
 juser.email = "abc@gmail.com"
 console.log(juser)
+
+juser.greeting = function() {
+    console.log(`Hello user, ${this.name}`)
+}
+console.log(juser.greeting)
+console.log(juser.greeting())
