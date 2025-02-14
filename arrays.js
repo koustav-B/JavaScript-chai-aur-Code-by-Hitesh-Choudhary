@@ -7,3 +7,15 @@ console.log(arr1[1])
 
 const hero = ['Uday', 'Aditya', 'Rugved']
 console.log(hero)
+hero.push('Koustav')
+console.log(hero)
+console.log(hero.unshift(0))
+console.log(hero.includes('Uday'))
+
+
+//slice , splice
+//console.log("A", hero)
+const n1 = hero.slice(1, 3)
+const n2 = hero.splice(1, 3)
+console.log(n1)
+console.log(n2) //last range printed
