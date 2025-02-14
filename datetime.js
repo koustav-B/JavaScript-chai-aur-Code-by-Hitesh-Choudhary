@@ -7,5 +7,4 @@ console.log(mydate.toDateString())
 
 let newdate = new Date("2025-02-14") //yymmdd
 console.log(newdate.toLocaleString());
-
 console.log(Math.floor(Date.now() / 1000))
