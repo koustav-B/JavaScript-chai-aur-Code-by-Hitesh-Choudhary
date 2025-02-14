@@ -25,11 +25,12 @@ console.log(obj4)
 
 
 const users = [{
-        id: 1,
-        email: "Koustav"
-    },
-    {
-        id: 2,
-        email: "Uday"
-    },
-]
+            id: 1,
+            email: "Koustav"
+        },
+        {
+            id: 2,
+            email: "Uday"
+        },
+    ]
+    //hasOwnProperty--> checks for
