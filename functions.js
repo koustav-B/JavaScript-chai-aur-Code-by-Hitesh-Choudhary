@@ -4,7 +4,7 @@
 }
 name();*/
 
-function add(num1, num2) {
+/*function add(num1, num2) {
     return num1 + num2
 
 }
@@ -17,4 +17,20 @@ function add(num1, num2) {
     let res = num1 + num2
     return res
 }
-console.log(add(2, 5))
+console.log(add(2, 5))*/
+
+/*function loginuser(username) {
+    return `${username} just logged in`
+}
+console.log(loginuser("Koustav"))
+console.log(loginuser())*/
+
+function loginuser(username) {
+    if (username == undefined) {
+        console.log("enter a valid username")
+    }
+    return `${username} just logged in`
+}
+
+console.log(loginuser())
+console.log(loginuser("Koustav"))
