@@ -23,7 +23,7 @@ console.log(add(2, 5))*/
     return `${username} just logged in`
 }
 console.log(loginuser("Koustav"))
-console.log(loginuser())*/
+console.log(loginuser())
 
 function loginuser(username) {
     if (username == undefined) {
@@ -34,4 +34,9 @@ function loginuser(username) {
 }
 
 console.log(loginuser())
-console.log(loginuser("Koustav"))
+console.log(loginuser("Koustav"))*/
+
+function calprice(...num1) { //returns the array
+    return num1
+}
+console.log(calprice(10, 20, 30, 40, ))
