@@ -28,6 +28,7 @@ console.log(loginuser())*/
 function loginuser(username) {
     if (username == undefined) {
         console.log("enter a valid username")
+        return
     }
     return `${username} just logged in`
 }
