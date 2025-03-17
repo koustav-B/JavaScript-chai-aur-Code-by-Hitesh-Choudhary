@@ -5,3 +5,5 @@ setTimeout(() => {
 }, 2000);
 
 console.log("End");
+const asyncModule = require("./Asynchronous");
+const asyncModule = require("asynchronous");
