@@ -1,0 +1,7 @@
+🚀 Summary
+✔ JavaScript Engine runs the code (V8, SpiderMonkey).
+✔ Execution Context (Global & Function).
+✔ Call Stack follows LIFO.
+✔ Hoisting moves declarations to the top.
+✔ Event Loop manages async tasks.
+✔ Microtasks (Promises) run before Macrotasks (setTimeout).
