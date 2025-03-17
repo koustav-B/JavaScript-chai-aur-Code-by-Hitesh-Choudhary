@@ -43,3 +43,14 @@ userBooks = books.filter((bk) => {
     return bk.publish >= 1995 && bk.genre === "History"
 })
 console.log(userBooks);
+
+
+
+/*🚀 Summary
+Step	Condition	Result
+Step 1	bk.genre === "History"	All History books
+Step 2	bk.genre === "History" && bk.publish >= 1995	Only History books published after 1995
+✅ filter() is Useful for:
+✔ Finding specific items in a list
+✔ Searching and filtering data dynamically
+✔ Working with large datasets efficiently*/
