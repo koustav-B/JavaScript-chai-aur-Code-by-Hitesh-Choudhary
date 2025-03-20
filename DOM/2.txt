@@ -1,0 +1,7 @@
+The parent <div> contains three child <div> elements.
+We log:
+The parent element.
+The children collection.
+The first and last child.
+We modify the second child ("Two") to red.
+We log all child nodes (includes text nodes like spaces).

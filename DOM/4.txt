@@ -1,0 +1,13 @@
+📌 Key Actions
+Adding Elements
+
+addLanguage(langName): Adds a new <li> using innerHTML.
+addOptiLanguage(langName): Adds a new <li> using createTextNode() (more optimized).
+Adds "Python", "TypeScript", and "Golang" to the list.
+Editing Elements
+
+Finds the second <li> and changes its text to "Mojo", using replaceWith().
+Replaces the first <li> ("JavaScript") with "TypeScript" using outerHTML.
+Removing an Element
+
+Finds the last <li> and removes it using .remove().
